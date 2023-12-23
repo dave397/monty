@@ -33,7 +33,7 @@ int call_stack(char *buffer, stack_t **stack, unsigned int counter)
 	}
 	if (cmd && oprList[j].opcode == NULL)
 	{
-		fprintf(stderr, "L%d: unknown instructions %s\n", counter, cmd);
+		fprintf(stderr, "L%d: unknown instruction %s\n", counter, cmd);
 	}
 
 	return (1);
